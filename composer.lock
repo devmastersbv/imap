@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5d6857dd5356427069c4ccb79e648c46",
-    "content-hash": "8c59474eaa3001f92a1f340c02d1e985",
+    "hash": "3ba421d4b762917631a07431baf78bde",
+    "content-hash": "61962e04ad09bef00c4973894f8f581b",
     "packages": [
         {
-            "name": "ddeboer/transcoder",
-            "version": "1.0.0",
+            "name": "devmastersbv/transcoder",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ddeboer/transcoder.git",
-                "reference": "8781195ad1334add26dca66a4a823b7973639754"
+                "url": "https://github.com/devmastersbv/transcoder.git",
+                "reference": "d6395a9b4ab08dec29fb59f11bb47e1d0faeadd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ddeboer/transcoder/zipball/8781195ad1334add26dca66a4a823b7973639754",
-                "reference": "8781195ad1334add26dca66a4a823b7973639754",
+                "url": "https://api.github.com/repos/devmastersbv/transcoder/zipball/d6395a9b4ab08dec29fb59f11bb47e1d0faeadd7",
+                "reference": "d6395a9b4ab08dec29fb59f11bb47e1d0faeadd7",
                 "shasum": ""
             },
             "require": {
@@ -64,10 +64,11 @@
                 "iconv",
                 "iso",
                 "mb",
+                "mb_convert_encoding",
                 "multibyte",
                 "utf-8"
             ],
-            "time": "2015-01-23 14:32:33"
+            "time": "2016-04-24 17:02:09"
         }
     ],
     "packages-dev": [
@@ -1027,7 +1028,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "devmastersbv/transcoder": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
